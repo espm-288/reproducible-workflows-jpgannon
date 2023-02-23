@@ -30,5 +30,7 @@ The `echo: false` option disables the printing of code (only output is displayed
 ```{r}
 library(tidyverse)
 
+#usethis::use_github_action("render-rmarkdown.yaml")
+
 mtcars |> ggplot(aes(cyl, mpg)) + geom_point()
 ```
